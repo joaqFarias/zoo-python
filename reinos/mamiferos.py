@@ -1,6 +1,6 @@
-import animales as ra
+from reinos.animales import *
 
-class mamifero(ra.animal):
+class mamifero(animal):
     def parir(self):
         print(f"Felicidades {self.nombre} ha parido una cria!")
         nombre_cria = input(f"Por favor ingrese el nombre de la cria\n")
