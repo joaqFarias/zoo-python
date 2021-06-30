@@ -1,17 +1,15 @@
-from reinos import animal
+from reinos.animales import *
 
 class anfibio(animal):
-    def parir_o_poner_huevos():
-        pass
+    def ser_anfibio(self):
+        print("Hola soy anfibio jojo")
 
 class sapo_comun(anfibio):
-    def __init__(self):
-        pass
+    def saltar(self):
+        print(f"sot el sapo {self.nombre} y salto ¡Rooaanac!")
 
 class sapo_gigante(anfibio):
-    def __init__(self):
-        pass
+    pass
 
 class salamandra(anfibio):
-    def __init__(self):
-        pass
+    pass

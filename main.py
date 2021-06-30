@@ -1,11 +1,10 @@
-# from reinos.mamiferos import *
-# no funciona cuando pongo lo modulos en otra carpeta !!! :(
-
-from mamiferos import *
-from anfibios import *
-from aves import *
-from peces import *
-from reptiles import *
+from reinos.animales import *
+from reinos.mamiferos import *
+from reinos.anfibios import *
+from reinos.aves import *
+from reinos.peces import *
+from reinos.reptiles import *
+# habra alguna forma de importar todos los paquetes para todo el modulo desde __init__.py?? mh
 
 
 class Zoo:

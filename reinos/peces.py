@@ -1,17 +1,14 @@
-from reinos import animal
+from reinos.animales import *
 
 class pez(animal):
-    def __init__(self):
-        pass
+    def nadar(self):
+        print('Hola soy un pez y nado y nado y nado...')
 
 class tiburon(pez):
-    def __init__(self):
-        pass
+    pass
 
 class pez_payaso(pez):
-    def __init__(self):
-        pass
+    pass
 
 class salmon(pez):
-    def __init__(self):
-        pass
+    pass

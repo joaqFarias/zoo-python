@@ -1,21 +1,17 @@
-from reinos import animal
+from reinos.animales import *
 
 class reptil(animal):
-    def __init__(self):
-        pass
+    def ser_reptile(self):
+        print('Hola soy un dinosau... digo reptil')
 
 class gecko(reptil):
-    def __init__(self):
-        pass
+    pass
 
 class cocodrilo(reptil):
-    def __init__(self):
-        pass
+    pass
 
 class tortuga(reptil):
-    def __init__(self):
-        pass
+    pass
 
 class vivora(reptil):
-    def __init__(self):
-        pass
+    pass
